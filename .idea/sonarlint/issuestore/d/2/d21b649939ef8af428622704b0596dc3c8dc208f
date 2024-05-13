@@ -1,9 +1,11 @@
 
-š
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(æÒÆ£ûÿÿÿÿ8Õ€¬òî1J$7b43129d-2645-45e0-a3d6-a44c4bc46957
-~	java:S125"<This block of commented-out lines of code should be removed.(ÍÏëŸ8‰‰åòî1J$903cd64c-8845-491e-bf74-040525ffb84f
-m	java:S106"+Replace this use of System.out by a logger.(¡ô‹‡8ëáªòî1J$c3104e88-7727-42fd-95fd-8d60778edf7a
-r	java:S106"+Replace this use of System.out by a logger.(ôÄØÙýÿÿÿÿ8Ø€¬òî1J$e47e992f-6679-4030-86ac-83fad6ee57bc
-m	java:S106 "+Replace this use of System.out by a logger.(×•œ²8Ù€¬òî1J$37a4b18e-0621-4155-b8b7-cace5f32b332
-r	java:S106$"+Replace this use of System.out by a logger.(ÚŒù²ùÿÿÿÿ8Ú€¬òî1J$7fab9cbd-6a1f-4637-b1f0-717cdfdbf217
-r	java:S106&"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Û€¬òî1J$ce2b5207-56ac-4cb4-b919-60a0cbaf4b5d
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ó´‰8’»ú ÷1J$ae01782d-bc1b-444a-9814-c7a1924ae3c2
+p
+java:S1172"-Remove this unused method parameter "matriz".(ó´‰8–»ú ÷1J$06da44ac-b47b-405f-898b-ec26095d1694
+~	java:S125"<This block of commented-out lines of code should be removed.(ÍÏëŸ8˜»ú ÷1J$9d6d428c-9765-463c-a48b-c45fc1e032e4
+m	java:S106"+Replace this use of System.out by a logger.(¡ô‹‡8œ»ú ÷1J$4fdf4889-a182-4694-a4c4-a735e53dc8ab
+r	java:S106"+Replace this use of System.out by a logger.(ôÄØÙýÿÿÿÿ8ž»ú ÷1J$d13d3645-1637-40d7-b205-49c020d4330d
+m	java:S106 "+Replace this use of System.out by a logger.(×•œ²8Ÿ»ú ÷1J$74b85d70-0255-4666-b816-0bdef01d5765
+r	java:S106$"+Replace this use of System.out by a logger.(ÚŒù²ùÿÿÿÿ8¡»ú ÷1J$03d9699a-409e-4301-8c4d-71a45f92154a
+r	java:S106&"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8£»ú ÷1J$c1860132-7edd-439f-a393-ced811d22cb2

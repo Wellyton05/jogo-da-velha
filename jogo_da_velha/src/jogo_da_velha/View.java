@@ -19,7 +19,7 @@ public class View {
 
 
 
-    public void mostrarTabuleiro() {
+    public void mostrarTabuleiro(int[][] matriz ) {
         for (int linha = 0; linha < 3; linha++) {
             for (int coluna = 0; coluna < 3; coluna++) {
                 if(tabuleiro[linha][coluna]== -1){

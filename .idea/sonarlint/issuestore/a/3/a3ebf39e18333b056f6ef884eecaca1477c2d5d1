@@ -1,4 +1,10 @@
 
-p	java:S108$")Either remove or fill this block of code.(¿•Úâÿÿÿÿÿ8ëá¶šï1J$c23c6c53-6986-4923-bd17-d2bd5706b452
+m	java:S106"+Replace this use of System.out by a logger.(àˆ® 8ÇüÉ¡÷1J$38316fc2-bf77-4aa8-b468-0f545f245c11
+m	java:S106"+Replace this use of System.out by a logger.(×•œ²8ÉüÉ¡÷1J$f08517d0-2132-4859-bc3b-772b28e74341
+r	java:S106"+Replace this use of System.out by a logger.(€ ØÝýÿÿÿÿ8ÌüÉ¡÷1J$cb622af0-deee-4a44-8513-d347d9fd9f9e
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8º®Ô¡÷1J$863bed8f-c913-4134-862e-2b06dad79c9b
+m	java:S106"+Replace this use of System.out by a logger.(Ù©È±8º®Ô¡÷1J$46a1e8be-145b-4818-ba3d-2c281f690cac
+r	java:S106"+Replace this use of System.out by a logger.(ÚŒù²ùÿÿÿÿ8ïÜß¡÷1J$0efb3c9b-c28e-48f1-aa40-0dab21dc691e
+r	java:S106 "+Replace this use of System.out by a logger.(„–‘§úÿÿÿÿ8³‘â¡÷1J$9e413581-4fcc-4c13-b89a-b62286842e49
 s
-java:S1068"0Remove this unused "jogadorAtual" private field.(ÓÕª†8ìá¶šï1J$bfd81310-ef3d-42c9-82da-82c5c00ee84c
+java:S1068"0Remove this unused "jogadorAtual" private field.(ÓÕª†8ÑüÉ¡÷1J$dacd7ea7-2735-428b-b5ad-3a909ebdb98c

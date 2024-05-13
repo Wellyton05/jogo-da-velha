@@ -15,11 +15,14 @@ public class Jogo_da_velha {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-//         TODO code application logic here
+
+        int[][] matriz = new int[3][3];
 
         View tabuleiro = new View();
-        tabuleiro.mostrarTabuleiro();
+        tabuleiro.mostrarTabuleiro(matriz);
 
+        Model teste = new Model();
+        teste.usuarioJoga();
     }
 
 }
