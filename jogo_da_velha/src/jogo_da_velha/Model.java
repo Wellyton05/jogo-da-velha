@@ -3,44 +3,74 @@ package jogo_da_velha;
 import java.util.Scanner;
 
 public class Model {
-    private int[][] tabuleiro; // Representação do tabuleiro do jogo
+    private int[][] tabuleiro;
     private char jogadorAtual;
-
-    Scanner scanner = new Scanner(System.in);
 
     public Model() {
         tabuleiro = new int[3][3];
-        jogadorAtual = 'X'; // Começar com o jogador X
-        limparTabuleiro();
+        jogadorAtual = 'X'; // Começa com o jogador X
+        reiniciarJogo();
     }
 
-    public void usuarioJoga(){
-        System.out.println("Opções de jogada:");
-
-        System.out.print("  ");
-        for (int cont = 0; cont < tabuleiro.length; cont++) {   //colunas
-            System.out.print(cont + "  ");
-        }
-        System.out.println();
-
-        for (int i = 1; i < tabuleiro.length; i++) {    //linhas
-            System.out.print(i + " ");
-            for (int j = 1; j < tabuleiro.length; j++) {
-
-                System.out.print("| ");
+    public void reiniciarJogo() {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                tabuleiro[i][j] = '-';
             }
-            System.out.println("|");
         }
     }
 
-    public void limparTabuleiro() {
-        for (int linha = 0; linha < 3; linha++) {
-            for (int coluna = 0; coluna < 3; coluna++) {
-                tabuleiro[linha][coluna] = 0;
+    public boolean fazerMovimento(int linha, int coluna) {
+        if (linha >= 0 && linha < 3 && coluna >= 0 && coluna < 3 && tabuleiro[linha][coluna] == '-') {
+            tabuleiro[linha][coluna] = jogadorAtual;
+            return true;
+        } else {
+            return false;
+        }
+    }
 
+    public boolean verificarVitoria() {
+        // Verificar linhas
+        for (int i = 0; i < 3; i++) {
+            if (tabuleiro[i][0] == jogadorAtual && tabuleiro[i][1] == jogadorAtual && tabuleiro[i][2] == jogadorAtual) {
+                return true;
             }
         }
+        // Verificar colunas
+        for (int j = 0; j < 3; j++) {
+            if (tabuleiro[0][j] == jogadorAtual && tabuleiro[1][j] == jogadorAtual && tabuleiro[2][j] == jogadorAtual) {
+                return true;
+            }
+        }
+        // Verificar diagonais
+        if ((tabuleiro[0][0] == jogadorAtual && tabuleiro[1][1] == jogadorAtual && tabuleiro[2][2] == jogadorAtual) ||
+                (tabuleiro[0][2] == jogadorAtual && tabuleiro[1][1] == jogadorAtual && tabuleiro[2][0] == jogadorAtual)) {
+            return true;
+        }
+        return false;
+    }
 
+    public boolean tabuleiroCheio() {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (tabuleiro[i][j] == '-') {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public int[][] getTabuleiro() {
+        return tabuleiro;
+    }
+
+    public char getJogadorAtual() {
+        return jogadorAtual;
+    }
+
+    public void trocarJogador() {
+        jogadorAtual = (jogadorAtual == 'X') ? 'O' : 'X';
     }
 
 

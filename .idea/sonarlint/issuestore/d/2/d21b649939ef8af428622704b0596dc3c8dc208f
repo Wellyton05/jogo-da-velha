@@ -1,11 +1,12 @@
 
 •
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ó´‰8’»ú ÷1J$ae01782d-bc1b-444a-9814-c7a1924ae3c2
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ó´‰8•ÿÏó÷1J$3db59f8d-de89-4b7d-897c-05e7da068f2d
 p
-java:S1172"-Remove this unused method parameter "matriz".(ó´‰8–»ú ÷1J$06da44ac-b47b-405f-898b-ec26095d1694
-~	java:S125"<This block of commented-out lines of code should be removed.(ÍÏëŸ8˜»ú ÷1J$9d6d428c-9765-463c-a48b-c45fc1e032e4
-m	java:S106"+Replace this use of System.out by a logger.(¡ô‹‡8œ»ú ÷1J$4fdf4889-a182-4694-a4c4-a735e53dc8ab
-r	java:S106"+Replace this use of System.out by a logger.(ôÄØÙıÿÿÿÿ8»ú ÷1J$d13d3645-1637-40d7-b205-49c020d4330d
-m	java:S106 "+Replace this use of System.out by a logger.(×•œ²8Ÿ»ú ÷1J$74b85d70-0255-4666-b816-0bdef01d5765
-r	java:S106$"+Replace this use of System.out by a logger.(ÚŒù²ùÿÿÿÿ8¡»ú ÷1J$03d9699a-409e-4301-8c4d-71a45f92154a
-r	java:S106&"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8£»ú ÷1J$c1860132-7edd-439f-a393-ced811d22cb2
+java:S1172"-Remove this unused method parameter "matriz".(ó´‰8—ÿÏó÷1J$66ee96a0-0864-4965-a457-1fe385db8468
+~	java:S125"<This block of commented-out lines of code should be removed.(ÍÏëŸ8™ÿÏó÷1J$06eb1c11-72ea-4a28-b962-e2f293845999
+m	java:S106"+Replace this use of System.out by a logger.(¡ô‹‡8Ã¸Éó÷1J$2fe77106-12fa-4411-999e-f1b5a9f5d5ec
+r	java:S106"+Replace this use of System.out by a logger.(ôÄØÙıÿÿÿÿ8Å¸Éó÷1J$2f270544-712d-48b2-a536-0df5ea02ba94
+m	java:S106 "+Replace this use of System.out by a logger.(×•œ²8æõÍó÷1J$02e593ff-891e-4e0b-9b16-073dc151a8fa
+r	java:S106$"+Replace this use of System.out by a logger.(ÚŒù²ùÿÿÿÿ8éõÍó÷1J$14e91ce2-55f5-4c36-87d9-68948ced1493
+r	java:S106&"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÿÏó÷1J$c29184ae-7aef-4bf0-88c3-a948880d68dc
+r	java:S106+"+Replace this use of System.out by a logger.(ÿç¡Ãùÿÿÿÿ8 ÿÏó÷1J$74097ead-5773-49e9-8eda-268f942da546

@@ -1,2 +1,5 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹Íñ˜8±§›¡÷1J$d2edef22-1c89-49af-8bbc-8b54f11d1adf
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹Íñ˜8±§›¡÷1J$9c4e0fd5-31f4-44b4-b2a8-e75c39c29392
+…
+java:S2094"BRemove this empty class, write its code or make it an "interface".(¹Íñ˜8¿û·ó÷1J$1473de36-09a7-4382-b64c-7ae8da25c034
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8Ãû·ó÷1J$7ed05910-ba19-4eb2-bc49-fdebf2302d91
